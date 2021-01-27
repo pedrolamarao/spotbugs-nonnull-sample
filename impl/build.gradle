@@ -1,0 +1,25 @@
+// project
+
+plugins
+{
+    id 'com.github.spotbugs'
+    id 'java-library'
+}
+
+dependencies 
+{
+    api project(':api')
+	
+    testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter', version: '5.6.2'
+}
+
+repositories.mavenCentral()
+
+// extensions
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(8)
+
+spotbugs 
+{
+    toolVersion = '4.2.0'
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BugCollection version="4.2.0" sequence="1" timestamp="1611787102520" analysisTimestamp="1611787109876" release="">
+  <Project projectName="spotbugs-nonnull-sample">
+    <Jar>impl\build\classes\java\test</Jar>
+    <Jar>api\build\classes\java\test</Jar>
+    <AuxClasspathEntry>api\build\classes\java\main</AuxClasspathEntry>
+    <AuxClasspathEntry>impl\build\classes\java\main</AuxClasspathEntry>
+    <SrcDir>impl\src\main</SrcDir>
+    <SrcDir>impl\src\test\java</SrcDir>
+    <SrcDir>api\src\test\java</SrcDir>
+    <SrcDir>api\src\main\java</SrcDir>
+    <WrkDir>E:\prodist\src\spotbugs</WrkDir>
+    <SuppressionFilter>
+      <LastVersion value="-1" relOp="NEQ"/>
+    </SuppressionFilter>
+  </Project>  
+  <History>
+    <AppVersion sequence="0" timestamp="1611786942400" release="" codeSize="42" numClasses="5"/>
+  </History>
+</BugCollection>

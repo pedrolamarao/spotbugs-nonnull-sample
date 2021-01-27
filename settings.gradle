@@ -1,0 +1,4 @@
+rootProject.name = 'spotbugs-nonnull-sample'
+
+include 'api'
+include 'impl'
